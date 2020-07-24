@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TaskMe To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cookie&family=Kaushan+Script&family=Righteous&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img class="logo" src="to-do-list.png" alt="">
+                    <h3>Proud</h3>
+                    <h3>To-Do App</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <div class="to-do">
+                        <input class="todo-input" placeholder="Enter What To-Do" type="text" id="todo-item" />
+                        <button class="btn" onclick="addTodo()">Add</button>
+                        <button class="btn" onclick="deleteAll()">Delete All</button>
+                    </div>
+
+                    <div class="list">
+                        <ul id="list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>

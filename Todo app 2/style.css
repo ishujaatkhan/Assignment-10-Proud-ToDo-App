@@ -1,0 +1,39 @@
+
+.navbar{
+    background: #240229!important;
+}
+.design{
+    text-align: center;
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 22px;
+}
+.design:hover{
+    color: #2DABF5;
+}
+.navbar-brand{
+    color: #2DABF5 !important;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    color: #5cdb95;
+}
+.card-title{
+    font-family: 'MuseoModerno', cursive;
+}
+.searchBtn{
+    font-family: 'Righteous', cursive;
+    color:white !important ;
+    border: 1px solid #2DABF5 !important;
+}
+.searchBtn:hover{
+    color:#fff !important ;
+    background:#2DABF5 !important ;
+    
+}
+.btn{
+    font-family: 'MuseoModerno', cursive;
+ 
+
+}
